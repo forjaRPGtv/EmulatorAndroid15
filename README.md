@@ -1,8 +1,14 @@
-# Emuladores Android - Ambiente Standalone & Independente
+# 🤖 EmulatorAndroid15: Ambiente Gamer Android Standalone & Independente
+
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-blue.svg)](https://microsoft.com)
+[![Android](https://img.shields.io/badge/Android-15%20%26%2011%20AOSP-brightgreen.svg)](https://source.android.com)
+[![Hardware](https://img.shields.io/badge/GPU-RTX%203060%20Ti%20Dedicated-76B900.svg)](https://nvidia.com)
+[![Kernel](https://img.shields.io/badge/Kernel-Linux%206.6%20LTS-orange.svg)](https://kernel.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Ambiente de emulação Android autônomo, limpo e de alta performance do ecossistema Arthur Reis.
 
-Este repositório foi migrado para uma arquitetura **100% independente do BlueStacks**, operando diretamente a partir do motor oficial do Google (AOSP) e aceleração por hardware dedicada.
+Este repositório foi construído sobre uma arquitetura **100% independente do BlueStacks**, operando diretamente a partir do motor oficial do Google (AOSP) com aceleração direta por hardware WHPX na RTX 3060 Ti e áudio de ultrabaixa latência Sound BlasterX.
 
 ---
 
@@ -12,6 +18,7 @@ Este repositório foi migrado para uma arquitetura **100% independente do BlueSt
 | :--- | :--- |
 | **[`1_Iniciar_Android_Gamer_Studio.cmd`](./1_Iniciar_Android_Gamer_Studio.cmd)** | Inicializa o Android 15 Gamer Studio com aceleração WHPX, 6 Cores, 8 GB RAM, RTX 3060 Ti e áudio Sound BlasterX. |
 | **[`Iniciar_Android11_Gamer.cmd`](./Iniciar_Android11_Gamer.cmd)** | Inicializa o Android 11 Gamer Studio com motor de tradução Houdini ARM64 (para Pokémon UNITE e jogos pesados da Play Store). |
+| **[`Conectar_Teclado_Direto.cmd`](./Conectar_Teclado_Direto.cmd)** | Ativa o driver de hardware UHID no Kernel Linux do Android para suporte nativo a teclado físico sem tela de toque. |
 | **[`Testar_Jogos_Android.cmd`](./Testar_Jogos_Android.cmd)** | Menu em 1 clique para lançar diretamente Pokémon UNITE, Pokémon GO ou Cabal Mobile. |
 | **[`2_Desinstalar_BlueStacks_Definitivo.cmd`](./2_Desinstalar_BlueStacks_Definitivo.cmd)** | Executa o desinstalador oficial para remover o BlueStacks e limpar o Windows com segurança. |
 | **[`Iniciar_Android15_Gamer.cmd`](./Iniciar_Android15_Gamer.cmd)** | Atalho direto canônico para a pasta `Z:\_EMULADORES_\Android15_Gamer`. |
@@ -32,3 +39,7 @@ Este repositório foi migrado para uma arquitetura **100% independente do BlueSt
 
 Os scripts legados, backups e ferramentas de engenharia reversa do BlueStacks foram preservados para histórico dentro da pasta:
 - 📁 [`_Arquivo_BlueStacks/`](./_Arquivo_BlueStacks/)
+
+---
+
+Desenvolvido por **Arthur Reis**.
